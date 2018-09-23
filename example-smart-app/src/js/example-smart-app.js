@@ -54,7 +54,8 @@
           }
 
           // Observations
-          lymph = byCodes('8867-4');
+          lymph = byCodes('26478-8');
+          Heart Rate = byCodes('8867-4');
           // Cerner SoF Tutorial Observations
           // var height = byCodes('8302-2');
           // var systolicbp = getBloodPressureValue(byCodes('55284-4'),'8480-6');
