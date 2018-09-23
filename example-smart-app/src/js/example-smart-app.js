@@ -27,7 +27,7 @@
           type: 'Observation',
           query: {
             code: {
-              $or: ['http://loinc.org|26478-8', 'http://loinc.org|2345-7']
+              $or: ['http://loinc.org|8867-4','http://loinc.org|26478-8', 'http://loinc.org|2345-7']
             }
           }
         });
@@ -54,7 +54,7 @@
           }
 
           // Observations
-          lymph = byCodes('26478-8');
+          lymph = byCodes('8867-4');
           // Cerner SoF Tutorial Observations
           // var height = byCodes('8302-2');
           // var systolicbp = getBloodPressureValue(byCodes('55284-4'),'8480-6');
